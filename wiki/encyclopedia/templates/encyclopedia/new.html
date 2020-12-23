@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}:
+    New Page 
+{% endblock %}
+
+{% block body %}
+    <h1>Create new page</h1>
+    {% if error409 %}
+    <h4 class="text-warning">Page already exists with similar title: "{{ error409 }}"</h4>
+    {% endif %}
+
+    <form action="{% url 'wiki:create' %}" method="post">
+      {% csrf_token %}
+      {{ new_form }}
+      <input type="submit" value="Create New Page">
+    </form>
+
+
+    
+
+{% endblock %}

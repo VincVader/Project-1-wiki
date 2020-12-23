@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+
+<h1> Search results </h1>
+<ul id ="search_result">
+  {% if error409 %}
+  <h2 class="text-warning">No matching page found</h2>
+  {% endif %}
+    
+    {% for page in found %}
+      <li>
+        <a href= "{% url 'wiki:title' title=page %}">{{page}}</a>
+      </li>
+    {% endfor %}
+</ul>
+{% endblock %}
