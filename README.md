@@ -28,7 +28,7 @@ Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title o
 ### No such page
 If page doesn't exist the user will be presented with an error page:
 
-![Error page](/media/pages404.png)
+![Error page](/media/pages404.gif)
 ### Search:
 
 #### 1. Exact match:
