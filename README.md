@@ -9,4 +9,4 @@ Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title o
 
 And if page doesn't exist the user will be presented with an error page
 
-![Error page]()
+![Error page](/media-for-README/error404.png)
