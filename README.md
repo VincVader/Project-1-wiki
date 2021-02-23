@@ -4,9 +4,8 @@ Pages are written on the [Markdown2](https://github.com/trentm/python-markdown2)
 ### Entry pages:
 Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title of an encyclopedia entry.
 
-![Title page](/media-for-README/TitlePageJavaScript.PNG =100x100)
-![Title page](/media-for-README/TitlePageC.PNG =100x100)
-![Title page](/media-for-README/TitlePagePython.PNG =100x100)
+![Title page](/media-for-README/tittle-page-example.gif)
+
 
 And if page doesn't exist the user will be presented with an error page
 
