@@ -13,12 +13,12 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
 ### Readme Navigation
 
 1. [Wiki pages](#title-page)  
-    1. [Index page](#index-page)
-    2. [Titles](#title-page)
-    3. [Page not found](#no-such-page)
+    1.1 [Index page](#index-page)
+    1.2 [Titles](#title-page)
+    1.3 [Page not found](#no-such-page)
 2. [Search query](#search)  
-    1.  [Exact match](#exact-match)
-    2.  [Not exact match](#not-exact-match)
+    1.1  [Exact match](#exact-match)
+    1.2  [Not exact match](#not-exact-match)
 3. [Naem](#source)  
 4. [Naem](#source)  
 5. [Naem](#source)  
