@@ -20,7 +20,7 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
 6. [Naem](#source)  
 
 
-### 1. Wiki pages:
+## 1. Wiki pages:
 
 #### 1.1 Index Page:
 
@@ -33,11 +33,11 @@ Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title o
 
 ![Title page](/media/title-pages.gif)
 
-### 1.3 No such page
+#### 1.3 No such page
 If page doesn't exist the user will be presented with an error page:
 
 ![Error page](/media/pages404.gif)
-### 2. Search:
+## 2. Search:
 
 #### 2.1 Exact match:
 If the query matches the name of an encyclopedia entry, the user will be redirected to that entry page:
@@ -50,6 +50,6 @@ On result page user can click on any of the entries pages names, doing so the us
 
 ![Title page](/media/search-not-exact-match.gif)
 
-### 3. Bla
+## 3. Bla
 
 
