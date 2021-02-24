@@ -12,9 +12,9 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
 
 ### Readme Navigation
 
-1. [Wiki pages](#1-title-page)  
+1. [Wiki pages](#1-wiki-pages)  
     * [Index page](#11-index-page)
-    * [Titles](#12-title-page)
+    * [Titles](#12-titles)
     * [Page not found](#13-no-such-page)
 2. [Search query](#2-search)  
     *  [Exact match](#21-exact-match)
@@ -33,7 +33,7 @@ On index page are wiki entries are clickable and will brought you to their entry
 
 ![Clicking on pages](/media/clicking-on-pages.gif) 
 
-### 1.2 Title Page
+### 1.2 Titles
 Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title of an encyclopedia entry.
 
 ![Title page](/media/title-pages.gif)
