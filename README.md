@@ -19,7 +19,7 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
 2. [Search query](#2-search)  
     *  [Exact match](#21-exact-match)
     *  [Not exact match](#22-not-exact-match)
-3. [Naem](#3-source)  
+3. [Page creation](#3-creating-a-new-page)  
 4. [Naem](#4-source)  
 5. [Naem](#5-source)  
 
@@ -39,23 +39,30 @@ Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title o
 ![Title page](/media/title-pages.gif)
 
 ### 1.3 No such page
-If page doesn't exist the user will be presented with an error page:
+If page doesn't exist the user will be presented with an error message:
 
-![Search](/media/pages404.gif)
+![page does not exist](/media/pages404.gif)
 ## 2. Search:
 
 ### 2.1 Exact match:
 If the query matches the name of an encyclopedia entry, the user will be redirected to that entry page:
 
-![Title page](/media/search-exact-match.gif)
+![exact search match](/media/search-exact-match.gif)
 ### 2.2 Not exact match:
 
 If the query does not match the name of an encyclopedia entry, instead the user will be taken to a search results page that displays a list of all encyclopedia entries that have the query as a substring.
 
 On result page user can click on any of the entries pages names, doing so the user will be taken to that entry page:
 
-![Title page](/media/search-not-exact-match.gif)
+![not exact search match](/media/search-not-exact-match.gif)
 
-## 3. Bla
+## 3. Creating a new page:
 
+Clicking on _**'Create New Page'**_ button in the sidebar user will be taken to a page where he can create a new emcyclopedia entry.
+
+![Creating a new page](/media/create-page-example.gif)
+
+And if user tries to create a page with a title that already exist the user will be presented with an error message:
+
+![Page already exist](/media/page-already-exist.gif)
 
