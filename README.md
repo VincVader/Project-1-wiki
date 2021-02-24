@@ -20,8 +20,8 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
     *  [Exact match](#21-exact-match)
     *  [Not exact match](#22-not-exact-match)
 3. [Page creation](#3-creating-a-new-page)  
-4. [Naem](#4-source)  
-5. [Naem](#5-source)  
+4. [Page edit](#4-editing-a-page)  
+5. [Random page](#5-random-page)  
 
 
 
@@ -58,11 +58,24 @@ On result page user can click on any of the entries pages names, doing so the us
 
 ## 3. Creating a new page:
 
-Clicking on _**'Create New Page'**_ button in the sidebar user will be taken to a page where he can create a new emcyclopedia entry.
+Clicking on _**'Create New Page'**_ in the sidebar user will be taken to a page where he can create a new encyclopedia entry.
 
 ![Creating a new page](/media/create-page-example.gif)
 
 And if user tries to create a page with a title that already exist the user will be presented with an error message:
 
 ![Page already exist](/media/page-already-exist.gif)
+
+## 4. Editing a page:
+
+On each entry page, the user can click on __*Edit page*__ button and edit that entry markdown content in a *textarea*
+
+![edit page example](/media/edit-page-example.gif)
+
+## 5. Random page:
+
+Clicking on _**'Random page'**_ in the sidebar user will be taken to a  random encyclopedia entry.
+
+![random pages example](/media/random-page-example.gif)
+
 
