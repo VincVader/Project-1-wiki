@@ -40,9 +40,13 @@ If page doesn't exist the user will be presented with an error page:
 ### 2. Search:
 
 #### 2.1 Exact match:
+If the query matches the name of an encyclopedia entry, the user will be redirected to that entry page:
 
 ![Title page](/media/search-exact-match.gif)
 #### 2.2 Not exact match:
+
+If the query does not match the name of an encyclopedia entry, instead the user will be taken to a search results page that displays a list of all encyclopedia entries that have the query as a substring.
+On result page user can click on any of the entries pages names, doing so the user will be taken to that entry page:
 
 ![Title page](/media/search-not-exact-match.gif)
 
