@@ -7,6 +7,7 @@
 * Python 3.9
 * Django 3.0.2
 * SQLite 3
+* django-markdown2
 
 Pages itself are written on the [Markdown2](https://github.com/trentm/python-markdown2), upgraded version of the [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
@@ -14,14 +15,16 @@ Pages itself are written on the [Markdown2](https://github.com/trentm/python-mar
 
 1. [Wiki pages](#1-wiki-pages)  
     * [Index page](#11-index-page)
-    * [Titles](#12-titles)
+    * [Page urls](#12-page-urls)
     * [Page not found](#13-no-such-page)
 2. [Search query](#2-search)  
     *  [Exact match](#21-exact-match)
     *  [Not exact match](#22-not-exact-match)
 3. [Page creation](#3-creating-a-new-page)  
 4. [Page edit](#4-editing-a-page)  
-5. [Random page](#5-random-page)  
+5. [Random page](#5-random-page)
+6. [Future possible improvements](#6-future-improvements)  
+7. [Contacts](#7-my-contacts)
 
 
 
@@ -33,12 +36,12 @@ On index page are wiki entries are clickable and will brought you to their entry
 
 ![Clicking on pages](/media/clicking-on-pages.gif) 
 
-### 1.2 Titles
+### 1.2 Page Urls:
 Each page has it's own url at /wiki/__*TITLE*__ where __*TITLE*__ is the title of an encyclopedia entry.
 
 ![Title page](/media/title-pages.gif)
 
-### 1.3 No such page
+### 1.3 No such page:
 If page doesn't exist the user will be presented with an error message:
 
 ![page does not exist](/media/pages404.gif)
@@ -77,5 +80,21 @@ On each entry page, the user can click on __*Edit page*__ button and edit that e
 Clicking on _**'Random page'**_ in the sidebar user will be taken to a  random encyclopedia entry.
 
 ![random pages example](/media/random-page-example.gif)
+
+## 6. Future improvements:
+
+1. Project needs some styling...
+2. Registed/login system => users
+3. Deleting entries
+
+## 7. My contacts
+
+[Telegram](https://t.me/vincvader)
+
+[VK](https://vk.com/vincvader)
+
+[E-Mail](mailto:vincvader@mail.ru)
+
+
 
 
