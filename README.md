@@ -9,7 +9,7 @@
 * SQLite 3
 * django-markdown2
 
-Pages itself are written on the [Markdown2](https://github.com/trentm/python-markdown2), upgraded version of the [Markdown](https://en.wikipedia.org/wiki/Markdown)
+Encyclopedia entries itself are written on the [Markdown2](https://github.com/trentm/python-markdown2), upgraded version of the [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ### Readme Navigation
 
